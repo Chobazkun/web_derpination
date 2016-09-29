@@ -52,6 +52,11 @@ header h2,h3
 	font-family: muli, sans-serif;
 }
 
+header h2
+{
+	color: #00414d;
+}
+
 .img_profil
 {
 	float: right;
@@ -81,13 +86,19 @@ article dl
 {
 	font-size: 18px;
 }
+
+article dd
+{
+	border-left: 5px solid #fda341;
+	padding-left: 0.5em;
+}
 /****end-Articles****/
 
 
 /****Footer****/
 footer
 {
-	margin: 4em 0 -1em;
+	margin: 4em 0 -3px;
 	padding: 10px;
 	text-align: center;
 	font-size: 20px;	
@@ -101,4 +112,5 @@ footer a
 	color: #03112F;
 }
 /****end-Footer****/
+
 	
