@@ -1,0 +1,101 @@
+/*
+------------------------------------
+---------- Author: Chobaz ----------
+------------------------------------
+*/
+
+/*----------Responsive----------*/
+
+/* 930px --- 851px */
+@media only screen and (max-width: 930px)
+{
+	#wrapper
+	{
+		margin: auto 1em;
+	}
+
+	header h1
+	{
+		font-size: 35px;
+	}
+
+	header h2
+	{
+		font-size: 22px;
+	}
+
+	header h3
+	{
+		font-size: 19px;
+	}
+
+	footer a
+	{
+		margin: 0 4em;
+	}
+
+}
+
+/* 850px --- 751px */
+@media only screen and (max-width: 850px)
+{
+	header h1
+	{
+		font-size: 32px;
+	}
+
+	header h2
+	{
+		font-size: 20px;
+	}
+
+	header h3
+	{
+		font-size: 17px;
+	}
+
+	.img_profil
+	{
+		height: 13em;
+		margin: 35px 22px;
+	}
+
+	article h1
+	{
+		font-size: 28px;
+	}
+
+	article dl
+	{
+		font-size: 16px;
+	}
+	
+}
+
+/* 750px --- 521px */
+@media only screen and (max-width: 750px)
+{
+	.presentation
+	{
+		margin: 0 auto;
+		width: 27.5em;
+	}
+	
+	.img_profil
+	{
+		float: none;
+		display: block;
+		margin: 0 auto;
+	}
+
+	footer a
+	{
+		margin: 0 3em;
+	}
+}
+
+/* 520px --- px */
+@media only screen and (max-width: 520px)
+{
+
+}
