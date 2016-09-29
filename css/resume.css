@@ -47,9 +47,20 @@ header
 	border-radius: 10em;
 }
 
+header
+{
+	font-family: muli, sans-serif;
+}
+
+.nom
+{
+	font-family: arapey, sans-serif;
+}
+
 article
 {
 	margin-top: 3em;
+	font-family: alegreya, serif;
 }
 
 footer
