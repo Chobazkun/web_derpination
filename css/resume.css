@@ -29,6 +29,9 @@ body
 	margin-right: auto;
 }
 
+div:empty {
+  height: 0.5em;
+}
 
 /****Présentation****/
 header
@@ -62,8 +65,8 @@ header h2
 	float: right;
 	height: 15em;
 	width: auto;
-	border: 1px solid #ccc;
-	margin: 35px 15px;
+	border: 1px solid #2a2a4a;
+	margin: 35px 20px;
 	border-radius: 10em;
 }
 /****end-Présentation****/
@@ -87,10 +90,26 @@ article dl
 	font-size: 18px;
 }
 
+article dt
+{
+	font-family: alegreya-sc, serif;
+	color: #f6af47;
+	margin-bottom: 1em;
+	font-size: 22px;
+}
+
 article dd
 {
 	border-left: 5px solid #fda341;
 	padding-left: 0.5em;
+	margin-bottom: 2em;
+}
+
+.logo
+{
+	height: 50px;
+	width: auto;
+	border-radius: 3em;
 }
 /****end-Articles****/
 
@@ -110,6 +129,7 @@ footer a
 {
 	margin: 0 5em;
 	color: #03112F;
+	display: inline-block;
 }
 /****end-Footer****/
 
